@@ -1,0 +1,49 @@
+.history-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Roboto;
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.time {
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #475569;
+}
+
+.app-title {
+  margin-right: 10px;
+  color: #475569;
+  font-weight: 500;
+}
+
+.domain-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.del-icon-con {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #64748b;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
